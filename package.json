@@ -6,7 +6,8 @@
     "url": "https://github.com/phillipj/express-typescript-example"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start": "npm run build && node dist/src/server.js"
   },
   "author": "Phillip Johnsen <johphi@gmail.com>",
   "license": "MIT",
