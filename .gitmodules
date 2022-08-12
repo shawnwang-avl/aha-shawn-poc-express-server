@@ -1,0 +1,4 @@
+[submodule "aha-shawn-poc-lib"]
+	path = aha-shawn-poc-lib
+	url = https://github.com/shawnwang-avl/aha-shawn-poc-lib
+	branch = main
