@@ -7,7 +7,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "start": "npm run build && node dist/src/server.js"
+    "start": "npm install && npm run build && node dist/src/server.js"
   },
   "author": "Phillip Johnsen <johphi@gmail.com>",
   "license": "MIT",
