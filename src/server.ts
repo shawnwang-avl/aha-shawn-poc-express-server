@@ -2,7 +2,7 @@ import express from "express";
 import { EXAMPLE_NAME } from "../aha-shawn-poc-lib";
 
 const app = express();
-const port = 3000;
+const port = 8080;
 
 app.get("/", (request, response) => {
     response.send("Vrrooooom! 🚙💨" +
