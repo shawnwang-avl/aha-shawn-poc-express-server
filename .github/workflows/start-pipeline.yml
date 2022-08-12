@@ -1,8 +1,5 @@
 name: GitHub Actions Demo
 
-description: "Deploy newest code to the machine."
-
-
 on: [ push ]
 jobs:
   Explore-GitHub-Actions:
