@@ -7,7 +7,9 @@
   },
   "scripts": {
     "build": "npm install && tsc",
-    "start": "npm run build && node dist/src/server.js"
+    "start": "node dist/src/server.js",
+    "start-deployed": "node /app/dist/src/server.js",
+    "clean": "rm -rf node_modules dist"
   },
   "author": "Phillip Johnsen <johphi@gmail.com>",
   "license": "MIT",
