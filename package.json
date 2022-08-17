@@ -6,7 +6,7 @@
     "url": "https://github.com/phillipj/express-typescript-example"
   },
   "scripts": {
-    "build": "npm install && tsc",
+    "build": "npm install && chmod u+x script/setup-sub-modules.sh && script/setup-sub-modules.sh && tsc",
     "start": "node dist/src/server.js"
   },
   "author": "Phillip Johnsen <johphi@gmail.com>",

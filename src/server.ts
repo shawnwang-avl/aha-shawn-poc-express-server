@@ -1,5 +1,5 @@
 import express from "express";
-import { EXAMPLE_NAME } from "../aha-shawn-poc-lib";
+import { EXAMPLE_NAME } from "../lib";
 
 
 const app = express();
