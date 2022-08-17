@@ -8,7 +8,7 @@
   "scripts": {
     "build": "npm install && tsc",
     "start": "node dist/src/server.js",
-    "start-deployed": "node /app/dist/src/server.js",
+    "start-deployed": "npm run build && node /app/dist/src/server.js",
     "clean": "rm -rf node_modules dist"
   },
   "author": "Phillip Johnsen <johphi@gmail.com>",
