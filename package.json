@@ -6,8 +6,8 @@
     "url": "https://github.com/phillipj/express-typescript-example"
   },
   "scripts": {
-    "build": "tsc",
-    "start": "npm install && npm run build && PORT=80 node dist/src/server.js"
+    "build": "npm install && tsc",
+    "start": "node dist/src/server.js"
   },
   "author": "Phillip Johnsen <johphi@gmail.com>",
   "license": "MIT",
