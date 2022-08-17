@@ -1,5 +1,4 @@
 import express from "express";
-import { EXAMPLE_NAME } from "../lib";
 
 
 const app = express();
@@ -7,7 +6,7 @@ const port = process.env.PORT;
 
 app.get("/", (request, response) => {
     response.send("Vrrooooom! 🚙💨" +
-        "\n Using lib to import name: " + EXAMPLE_NAME);
+        "\n Hello! server is responding you");
 
 });
 
