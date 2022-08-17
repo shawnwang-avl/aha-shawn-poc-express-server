@@ -1,8 +1,9 @@
 import express from "express";
 import { EXAMPLE_NAME } from "../aha-shawn-poc-lib";
 
+
 const app = express();
-const port = 8080;
+const port = process.env.PORT;
 
 app.get("/", (request, response) => {
     response.send("Vrrooooom! 🚙💨" +
